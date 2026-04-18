@@ -124,7 +124,7 @@ export default function Hero() {
       {/* background pattern */}
       <div className="absolute top-0 left-0 w-full flex justify-center opacity-40">
         <div
-          className="h-32 w-full max-w-7xl"
+          className="h-32 mt-16 w-full max-w-7xl"
           style={{
             backgroundImage: "radial-gradient(#00000055 1px, transparent 1px)",
             backgroundSize: "16px 16px",

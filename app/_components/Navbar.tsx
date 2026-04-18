@@ -52,7 +52,7 @@ export default function Navbar() {
   ]
 
   return (
-    <div className="flex justify-center px-4 py-3 bg-[#f0f0ee] md:px-6 md:py-4 fixed z-50 left-0 right-0">
+    <div className="flex justify-center px-4 py-3 md:px-6 md:py-4 fixed z-50 left-0 right-0">
       <nav className="flex items-center justify-between bg-white border border-gray-200 rounded-full px-4 py-2 w-full max-w-6xl relative md:px-6 md:py-3">
         
         {/* Logo */}
