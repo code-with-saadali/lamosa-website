@@ -13,24 +13,22 @@ import Faq from "./_components/Faq";
 import Blog from "./_components/Blog";
 import CTAFooter from "./_components/Cta";
 
-
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <Hero />
-      <Work/>
+      <Work />
       <Marquee />
-      <ImpactSection/>
-      <ServicesSection/>
-      <Projects/>
-      <Process/>
-      <Testimonials/>
-      <Pricing/>
-      <Faq/>
-      <Blog/>
-      <CTAFooter/>
-
+      <ImpactSection />
+      <ServicesSection />
+      <Projects />
+      <Process />
+      <Testimonials />
+      <Pricing />
+      <Faq />
+      <Blog />
+      <CTAFooter />
     </div>
   );
 }
